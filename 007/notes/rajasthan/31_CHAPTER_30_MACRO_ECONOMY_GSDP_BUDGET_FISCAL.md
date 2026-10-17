@@ -1,409 +1,503 @@
-# CHAPTER 30: Macro-Economic Profile of Rajasthan, GSDP, Fiscal Architecture & Economic Review
+# CHAPTER 30: Rajasthan’s Macro-Economy, GSDP, Fiscal Architecture & Economic Review
+
+**Revision status:** Forensic revision completed  
+**Data cut-off:** 17 October 2026  
+**Core statistical source:** Government of Rajasthan, *Economic Review 2025–26* and *Budget at a Glance 2026–27*  
+**Use:** RPSC RAS Prelims and Mains — Rajasthan economy, public finance, development indicators and current economic review
+
+> **Data-vintage rule:** Every economic statistic must be read with its financial year, estimate status and price base. The 2025–26 Economic Review reports Rajasthan’s state accounts at constant **2011–12 prices**. India’s national GDP series was rebased to **2022–23** in February 2026. Do not mix old-base national comparisons and new-base national figures without a clear series note.
 
 ---
 
-## 1. Architectural Overview of Rajasthan's Macro-Economy
+## 1. Rajasthan’s macro-economic profile
 
-Rajasthan, spanning **3,42,239 sq km** (10.41% of India's landmass) as the largest state in the Indian Union, presents a unique economic geography. Traditionally categorized as a drought-prone, agrarian, desert-dominated economy, the state has undergone an epochal **structural transformation (संरचनात्मक परिवर्तन)** over the past three decades.
+Rajasthan is India’s largest state by area, covering approximately **3,42,239 km²**. Its economic structure combines agriculture and livestock, mineral extraction and manufacturing, services, tourism, infrastructure investment and a fast-expanding renewable-energy sector. Water scarcity, climatic variability, uneven industrial concentration and public-finance pressures remain important constraints.
 
-```
-                         THE MACRO-ECONOMIC CONTINUUM
-                                       │
-        ┌──────────────────────────────┼──────────────────────────────┐
-        │                              │                              │
-1. VALUE CREATION & SIZE        2. SECTORAL DYNAMICS           3. FISCAL & PRICE DISCIPLINE
-   • GSDP (Current vs Constant)    • Services (47.7% - Engine)    • Revenue & Capital Budgets
-   • NSDP & Per Capita Income      • Industry (26.5% - Growth)    • FRBM & Fiscal Deficit (4.26%)
-   • Capital Formation (GFCF)      • Agriculture (25.7% - Base)   • WPI (1999-2000) & CPI Tiers
-        │                              │                              │
-        └──────────────────────────────┼──────────────────────────────┘
-                                       │
-                        ┌──────────────┴──────────────┐
-                        │                             │
-                 4. 2026 VISION & TRANSFORMATION
-                    • $350 Billion Economy by 2029
-                    • "Viksit Rajasthan @2047"
-                    • Green Growth & Climate Resilience
-                    • NITI Aayog SDG Index Framework
-```
+### 1.1 How to read state economic data
 
----
+| Term | Meaning | Examination distinction |
+|---|---|---|
+| **GSDP** — Gross State Domestic Product | Value of final output produced within Rajasthan’s economic territory during a period, measured at market prices | Gross means depreciation has not been deducted |
+| **GSVA** — Gross State Value Added | Value added by producers/sectors: output value less intermediate consumption | Sector shares are commonly reported as shares of GSVA |
+| **NSDP** — Net State Domestic Product | GSDP less consumption of fixed capital (CFC/depreciation) | Net is lower than gross, all else equal |
+| **Per-capita income (PCI)** | A per-person income indicator derived from state domestic income estimates and estimated population | It is an average, not the income of a typical household |
+| **Current prices** | Values measured using prices prevailing in the period | Include price changes; also called nominal values |
+| **Constant prices** | Values re-expressed using prices of a designated base year | Remove price-change effects to estimate real growth |
+| **GFCF** — Gross Fixed Capital Formation | Investment in fixed assets such as buildings, machinery and infrastructure | A national-accounts investment measure; not the same as government budget capital outlay |
+| **Capital outlay** | Government budget expenditure on creation/acquisition of assets | A fiscal-budget measure; not identical to total public or private investment |
 
-## 2. Gross State Domestic Product (GSDP) & State Income Accounting
+**Basic relationships**
 
-### 2.1 Theoretical Foundations & Measurement Principles
-In state-level macro-economic accounting:
-- **Gross State Domestic Product (GSDP / सकल राज्य घरेलू उत्पाद)**: Represents the aggregate monetary value of all finished goods and services produced within the geographic boundaries of Rajasthan during a given financial year, without deducting the depreciation of fixed assets.
-  $$\text{GSDP} = \text{Gross Value Added (GSVA)} + (\text{Taxes on Products}) - (\text{Subsidies on Products})$$
-- **Net State Domestic Product (NSDP / शुद्ध राज्य घरेलू उत्पाद)**: Derived by deducting the Consumption of Fixed Capital (CFC / depreciation / मूल्यह्रास) from GSDP. It reflects the real net economic accretion to the state's wealth.
-  $$\text{NSDP} = \text{GSDP} - \text{Depreciation (CFC)}$$
-- **Base Year Invariant**: The macroeconomic aggregates in Rajasthan (and India) are tracked against the official base year of **2011–12** established by the National Statistical Office (NSO), Ministry of Statistics and Programme Implementation (MoSPI).
+\[
+\text{GSDP at market prices}
+=
+\text{GSVA at basic prices}
++
+\text{taxes on products}
+-
+\text{subsidies on products}
+\]
 
-### 2.2 Macro Indicators: Constant (2011–12) vs. Current Prices
-*Data Source: Directorate of Economics & Statistics (DES), Government of Rajasthan & Economic Review (आर्थिक समीक्षा).*
+\[
+\text{NSDP}=\text{GSDP}-\text{Consumption of Fixed Capital}
+\]
 
-```
-┌─────────────────────────────────────────────────────────────────────────────────────────┐
-│                        MACRO-ECONOMIC AGGREGATES: RAJASTHAN VS INDIA                    │
-├───────────────────────────────┬───────────────────────┬───────────────────┬─────────────┤
-│ ECONOMIC INDICATOR            │ CURRENT PRICES        │ CONSTANT (2011-12)│ ANNUAL      │
-│                               │ (प्रचलित कीमतें)      │ (स्थिर कीमतें)    │ GROWTH RATE │
-├───────────────────────────────┼───────────────────────┼───────────────────┼─────────────┤
-│ **GSDP (2025–26)**            │ **₹17,12,016 Crore**  │ **₹8,78,747 Crore**│ **9.03%** (Curr.)│
-│ (Rajasthan)                   │                       │                   │ **7.03%** (Const.)│
-├───────────────────────────────┼───────────────────────┼───────────────────┼─────────────┤
-│ **NSDP (2025–26)**            │ **₹15,40,820 Crore**  │ **₹7,86,410 Crore**│ **8.89%** (Curr.)│
-│ (Rajasthan)                   │                       │                   │ **6.88%** (Const.)│
-├───────────────────────────────┼───────────────────────┼───────────────────┼─────────────┤
-│ **Per Capita Income (PCI)**   │ **₹1,82,450**         │ **₹1,03,189**     │ **7.76%** (Const.)│
-│ (Rajasthan)                   │                       │                   │             │
-├───────────────────────────────┼───────────────────────┼───────────────────┼─────────────┤
-│ **All-India Per Capita (PCI)**│ **₹2,14,350**         │ **₹1,21,968**     │ **6.30%** (Const.)│
-│ (National Benchmark)          │                       │                   │             │
-└───────────────────────────────┴───────────────────────┴───────────────────┴─────────────┘
-```
+\[
+\text{Real growth}=
+\frac{\text{constant-price value in current year}-\text{constant-price value in previous year}}
+{\text{constant-price value in previous year}}\times100
+\]
 
-*Key RPSC Trap: Rajasthan's Per Capita Income at constant prices (₹1,03,189) is approximately **84.6% of the national average** (₹1,21,968), but its growth rate (7.76%) is outpacing the national average (6.30%).*
+A rise in GSDP at current prices combines changes in the volume of production and changes in prices. Constant-price growth is the better indicator of real output growth, subject to revisions and the statistical series used.
+
+### 1.2 Base-year caution: state and national accounts
+
+- The *Rajasthan Economic Review 2025–26* reports the state GSDP/NSDP series at **constant 2011–12 prices**.
+- MoSPI released a new national GDP series with base year **2022–23** on 27 February 2026, replacing the national 2011–12 series.
+- As a result, a state figure from Rajasthan’s older-base series should **not be directly compared with a national figure taken from the rebased national series** unless the source has supplied a consistent back series and an explicit bridge.
+- For RPSC questions, reproduce the series and year expressly named by the question/source. Do not state that every Indian national-account series still uses 2011–12.
 
 ---
 
-## 3. Gross State Value Added (GSVA) & Sectoral Composition
+## 2. Rajasthan’s GSDP, NSDP and per-capita income
 
-The Gross State Value Added (GSVA / सकल राज्य मूल्य वर्धन) measures the contribution of each individual productive sector by deducting intermediate consumption from total output:
-$$\text{GSVA} = \text{Total Value of Output} - \text{Value of Intermediate Consumption}$$
+The following figures are from the Government of Rajasthan’s *Economic Review 2025–26*. Figures for 2025–26 are **Advance Estimates (AE)**; historical values can be revised in later releases.
 
-```
-                GSVA SECTORAL DISTRIBUTION IN RAJASTHAN (2025-26)
-                                       │
-            ┌──────────────────────────┼──────────────────────────┐
-            │                          │                          │
-    AGRICULTURE (कृषि)           INDUSTRY (उद्योग)          SERVICES (सेवा)
-      Current: 25.74%            Current: 26.55%            Current: 47.71%
-      Constant: 25.33%           Constant: 28.21%           Constant: 46.46%
-            │                          │                          │
-  • Crops: ~11.5%            • Manufacturing: ~10.2%    • Real Estate/Prof: ~14.1%
-  • Livestock: ~11.8%        • Mining & Quarry: ~4.8%   • Trade & Hotels: ~11.2%
-  • Forestry: ~1.9%          • Construction: ~8.3%      • Transport/Comm: ~7.6%
-  • Fishing: ~0.5%           • Electricity/Gas: ~3.2%   • Public Admin: ~6.8%
-```
+### 2.1 Gross State Domestic Product (GSDP)
 
-### 3.1 Detailed Sectoral Share and Growth Trajectory
+| Financial year | GSDP at current prices (₹ crore) | Annual growth | GSDP at constant 2011–12 prices (₹ crore) | Real growth |
+|---|---:|---:|---:|---:|
+| 2023–24 (RE-II) | 15,22,063 | 12.85% | 8,30,724 | 7.66% |
+| 2024–25 (RE-I) | 17,01,190 | 11.77% | 9,03,564 | 8.77% |
+| 2025–26 (AE) | **18,75,413** | **10.24%** | **9,81,807** | **8.66%** |
 
-| Sector of Economy | GSVA Share (Current Prices) | GSVA Share (Constant Prices) | Nominal Value (Current Prices) | Real Value (Constant Prices) | Annual Growth Rate (2025-26) |
-|---|---|---|---|---|---|
-| **Agriculture & Allied** | **25.74%** | **25.33%** | ₹4,40,702 Crore | ₹2,22,550 Crore | 3.47% (Nominal) / 0.22% (Real) |
-| **Industry Sector** | **26.55%** | **28.21%** | ₹4,54,486 Crore | ₹2,47,872 Crore | 6.99% (Nominal) / 7.02% (Real) |
-| **Services Sector** | **47.71%** | **46.46%** | ₹8,16,828 Crore | ₹4,08,325 Crore | 13.52% (Nominal) / 11.15% (Real) |
-| **Total GSVA** | **100.00%** | **100.00%** | **₹17,12,016 Crore** | **₹8,78,747 Crore** | **9.03% (Nom.) / 7.03% (Real)** |
+**Exam interpretation:** For 2025–26, the Review estimates nominal GSDP at about **₹18.75 lakh crore** and real GSDP at about **₹9.82 lakh crore**. Nominal growth (10.24%) exceeds real growth (8.66%) because current-price growth also reflects price changes.
 
-### 3.2 Key Structural Insights
-1. **The Livestock Paradox**: Within Agriculture, the **Livestock sub-sector (पशुपालन)** contributes nearly half (~46% of agricultural output, or 11.8% of total GSVA), outperforming traditional crop cultivation in rain-deficient years. This makes livestock the primary economic cushion against desertification.
-2. **Services Dominance**: The Services sector continues to be the primary engine of value addition (contributing nearly **48%** of the state's economy), driven by tourism, logistics, digital services, and real estate.
-3. **Mining & Manufacturing Synergy**: Rajasthan's 26.55% industrial share is heavily anchored in mineral extraction, cement production, textiles, and auto clusters (Bhiwadi, Neemrana, Sitapura).
+### 2.2 Net State Domestic Product (NSDP)
 
----
+| Financial year | NSDP at current prices (₹ crore) | Annual growth | NSDP at constant 2011–12 prices (₹ crore) | Real growth |
+|---|---:|---:|---:|---:|
+| 2023–24 (RE-II) | 13,61,835 | 13.26% | 7,24,575 | 7.50% |
+| 2024–25 (RE-I) | 15,25,291 | 12.00% | 7,89,133 | 8.91% |
+| 2025–26 (AE) | **16,85,118** | **10.48%** | **8,59,333** | **8.90%** |
 
-## 4. Gross Fixed Capital Formation (GFCF) & Investment Architecture
+CFC is deducted to move from gross to net domestic product. The level of NSDP is therefore lower than GSDP in the same series.
 
-- **Assessment Guidelines**: Computed in accordance with the National Statistical Office (NSO) standards using 2011–12 as the base year.
-- **Aggregate GFCF (सकल स्थायी पूंजी निर्माण)**: Reached **₹5,02,412 Crore** at current prices, marking an **11.81% annual expansion**.
-- **GFCF-to-GSDP Ratio**: Capital investment accounts for **29.53% of the state's total GSDP**, demonstrating healthy productive capacity creation.
-- **Ownership Partition (Public vs. Private)**:
-  - **Private Sector (निजी क्षेत्र)**: Contributes **77.97%** (₹3,91,722 Crore) of total capital formation.
-  - **Public Sector (सार्वजनिक क्षेत्र)**: Contributes **22.03%** (₹1,10,689 Crore), concentrated in roads, irrigation, solar transmission, and power.
+### 2.3 Per-capita income (PCI)
+
+| Financial year | PCI at current prices | PCI at constant 2011–12 prices |
+|---|---:|---:|
+| 2024–25 (RE-I) | ₹1,85,095 | ₹95,762 |
+| 2025–26 (AE) | **₹2,02,349** | **₹1,03,189** |
+| 2025–26 growth reported by the Economic Review | **9.32%** | **7.76%** |
+
+PCI is an average indicator. It does not reveal income distribution, household inequality, unpaid work or differences between districts and social groups.
+
+### 2.4 State share of the national economy — handle with care
+
+The 2025–26 Economic Review reports Rajasthan at approximately **5.25% of India’s nominal GDP** and **4.86% of GDP at constant prices** for 2025–26. These ratios are taken from the Review’s contemporaneous 2011–12-base comparison. Because the national accounts series was subsequently rebased to 2022–23 in February 2026, do not combine these ratios with a new-series national GDP figure without a consistent re-estimation.
 
 ---
 
-## 5. Price Dynamics & Inflation Indices in Rajasthan
+## 3. Sectoral composition: Gross State Value Added (GSVA)
 
-To track price volatility, assess cost of living, and guide wage revisions, the **Directorate of Economics & Statistics (DES)**, Rajasthan, and central agencies track two vital statistical series:
+GSVA describes value added by sectors before net product taxes are added to obtain GSDP at market prices. According to the *Economic Review 2025–26*, the 2025–26 sectoral shares at **current prices** are:
 
-```
-                          PRICE INDEX ARCHITECTURE
-                                     │
-           ┌─────────────────────────┴─────────────────────────┐
-           │                                                   │
-WHOLESALE PRICE INDEX (WPI)                         CONSUMER PRICE INDEX (CPI)
-(थोक मूल्य सूचकांक - Producer/Trade Level)          (उपभोक्ता मूल्य सूचकांक - Retail/Household Level)
-           │                                                   │
-• Base Year: 1999–2000 = 100                        • CPI-IW: Base 2016 = 100 (Labour Bureau)
-• Released by: DES, Rajasthan (Since 1957)          • CPI-AL & RL: Base 1986–87 = 100
-• 33 Districts data collection                      • CPI-Combined: Base 2012 = 100 (NSO MoSPI)
-• Food Weight: 30.163                               • Direct inflation indicator for monetary policy
-```
+| Sector | Share of GSVA, 2025–26 |
+|---|---:|
+| **Services** | **47.71%** |
+| **Industry** | **26.55%** |
+| **Agriculture and allied activities** | **25.74%** |
+| **Total** | **100.00%** |
 
-### 5.1 Wholesale Price Index (WPI - राजस्थान थोक मूल्य सूचकांक)
-- **Base Year**: **1999–2000 = 100** *(Critical RPSC Trap: While All-India WPI shifted to 2011–12, Rajasthan's state-specific WPI continues on the 1999–2000 base year!)*.
-- **Compiled By**: Directorate of Economics & Statistics (DES), Jaipur.
-- **Index Trajectory**:
-  - The General WPI of Rajasthan rose from **394.68** to **399.13** (an increase of **1.13%**).
-  - Primary Articles Index: **445.65** (Weight: 33.9%)
-  - Fuel, Power, Light & Lubricants Index: **571.11** (Weight: 16.3%)
-  - Manufactured Products Index: **311.42** (Weight: 49.8%)
-  - *Food Index* (combined food group, weight 30.163): Stood at **427.13**.
+**Correct ranking at current prices:** Services > Industry > Agriculture and allied activities. Industry’s share is slightly higher than agriculture’s.
 
-### 5.2 Consumer Price Indices (CPI - उपभोक्ता मूल्य सूचकांक)
-1. **CPI for Industrial Workers (CPI-IW / औद्योगिक श्रमिकों हेतु)**:
-   - Compiled monthly by the **Labour Bureau, Chandigarh**.
-   - Base Year updated to **2016 = 100** (replacing the old 2001 base).
-   - *Designated Centers in Rajasthan*: **3 centers**: **Jaipur, Alwar, and Bhilwara** *(Note: Ajmer was replaced by Alwar in the 2016 base series)*.
-2. **CPI for Agricultural Labourers (CPI-AL)** & **Rural Labourers (CPI-RL)**:
-   - Compiled by Labour Bureau, Chandigarh (Base Year: 1986–87 = 100).
-3. **CPI (Combined - Rural + Urban)**:
-   - Released monthly by **NSO, MoSPI** (Base Year: 2012 = 100). Serves as the headline retail inflation metric.
+### 3.1 What the sectors include
+
+- **Agriculture and allied activities:** crops, livestock, forestry and fishing.
+- **Industry:** mining and quarrying, manufacturing, electricity/gas/water and construction.
+- **Services:** trade, hotels, transport and communication, financial services, real estate and professional services, public administration and other services.
+
+### 3.2 Livestock’s role
+
+The 2025–26 Economic Review reports livestock-sector GVA at current prices of approximately **₹2.17 lakh crore**, higher than the crop sector. Milk is identified as the major contributor to livestock-sector income.
+
+Why it matters for Rajasthan:
+- Livestock supports income and employment in arid and semi-arid districts.
+- It diversifies rural livelihoods beyond crop cultivation.
+- It can improve resilience when rain-fed crop output is affected by drought, though fodder, water, animal health and market access remain constraints.
+
+**Avoid memorising the source’s former “46% of agricultural GSVA” claim:** it was not supported by the cited table and does not align cleanly with the current values used in the source. Use the confirmed ₹2.17 lakh-crore figure and the Review’s statement that livestock GVA exceeds crop-sector GVA.
+
+### 3.3 Industrial strengths and constraints
+
+Rajasthan has mineral resources, cement and stone industries, textiles, engineering and manufacturing clusters, tourism-related activity and a large renewable-energy resource base. However, opportunities and industrial activity are spatially uneven. Access to water, transport, skills, reliable power, finance and markets influences where investment is viable.
 
 ---
 
-## 6. Fiscal Architecture, State Budget & Deficit Management
+## 4. Investment: GFCF versus government capital outlay
 
-### 6.1 Receipts Profile: Revenue Receipts vs. Capital Receipts
-- **Total Revenue Receipts (राजस्व प्राप्तियां)**: Comprise:
-  1. *State's Own Tax Revenue (SOTR - स्वयं का कर राजस्व)*: SGST, Stamp & Registration fees, State Excise, Taxes on Vehicles, Electricity Duties, and Land Revenue.
-  2. *State's Own Non-Tax Revenue (SONTR)*: Royalty on crude petroleum and major/minor minerals, user charges, water rates, interest receipts.
-  3. *Share in Central Taxes (केन्द्रीय करों में हिस्सा)*: Devolution under the 15th Finance Commission recommendations (41% divisible pool, Rajasthan's share is 6.026%).
-  4. *Grants-in-Aid from Centre (केन्द्रीय सहायता / अनुदान)*: Centrally Sponsored Schemes (CSS), disaster relief (SDRF), and statutory compensation.
-- **Revenue Receipt Composition Trend**: State's Own Tax Revenue (SOTR) accounts for over **52%** of total revenue receipts, demonstrating high self-reliance.
+**Gross Fixed Capital Formation (GFCF)** records investment in fixed assets across sectors of the economy. It can include private and public investment in buildings, machinery, infrastructure and other fixed assets.
 
-```
-                    STATE OWN TAX REVENUE (SOTR) SPECTRUM
-                                      │
-   ├── State Goods & Services Tax (SGST) ────► ~43% (Single Largest Source)
-   ├── State Excise (राज्य उत्पाद शुल्क) ────► ~17% (Alcohol & liquor duties)
-   ├── Stamp & Registration (मुद्रांक एवं पंजीयन) ► ~15% (Land & property registry)
-   ├── Taxes on Vehicles (वाहन कर) ──────────► ~10% (Transport registration)
-   ├── Electricity Duty & Cesses ─────────────► ~8%
-   └── Land Revenue & Other Taxes ───────────► ~7%
-```
+**Capital outlay** is a government-budget category relating to expenditure on assets. The two concepts differ:
 
-### 6.2 Expenditure Profile: Revenue vs. Capital Outlay
-- **Revenue Expenditure (राजस्व व्यय)**: Absorbs ~82–85% of total budget expenditure. Comprises:
-  - Committed expenditures: Salaries, pensions (~35.45% of net revenue expenditure), interest payments, and welfare subsidies (free power, health insurance, subsidized cylinders).
-- **Capital Outlay (पूंजीगत परिव्यय)**: Productive expenditure allocated directly to asset building (roads, metro corridors, canal concrete relining, hospital buildings). In 2024–25 / 2025–26, Capital Outlay grew by **15.3%** to reach **₹30,727 Crore**.
+| GFCF | Government capital outlay |
+|---|---|
+| National-accounts measure of fixed investment across the economy | Budget measure of government expenditure on assets |
+| Can include private and public investment | Does not represent all private fixed investment |
+| Used to assess aggregate investment/capital formation | Used to assess a major part of the government’s asset-creating spending |
 
-### 6.3 The Deficit Spectrum & FRBM Mandates
+The original chapter stated GFCF of ₹5,02,412 crore, a GFCF/GSDP ratio of 29.53%, and a 77.97% private/22.03% public split. These exact claims are **not retained** because a matching, dated official table was not established in the source verification. Do not infer GFCF from the state budget’s capital-outlay line.
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                           THE DEFICIT FORMULATION                           │
-├──────────────────────────┬──────────────────────────────────────────────────┤
-│ DEFICIT METRIC           │ MATHEMATICAL FORMULA & CONSTITUTIONAL PURPOSE    │
-├──────────────────────────┼──────────────────────────────────────────────────┤
-│ **Revenue Deficit (RD)** │ $\text{Total Revenue Expenditure} - \text{Total  │
-│                          │  Revenue Receipts}$                              │
-│                          │ • Measures consumption spending financed by debt.│
-├──────────────────────────┼──────────────────────────────────────────────────┤
-│ **Effective Revenue      │ $\text{Revenue Deficit} - \text{Grants for       │
-│ Deficit (ERD)**          │  Creation of Capital Assets}$                    │
-│                          │ • Rangarajan Committee concept: adjusts grants   │
-│                          │   like MGNREGS/PMAY that create durable assets.  │
-├──────────────────────────┼──────────────────────────────────────────────────┤
-│ **Fiscal Deficit (FD)**  │ $\text{Total Expenditure} - (\text{Revenue       │
-│                          │  Receipts} + \text{Non-debt Capital Receipts})$  │
-│                          │ • Represents aggregate net borrowing requirement │
-│                          │   of the State Government.                       │
-├──────────────────────────┼──────────────────────────────────────────────────┤
-│ **Primary Deficit (PD)** │ $\text{Fiscal Deficit} - \text{Interest Payments}$│
-│                          │ • Reflects current year's fiscal stance excluding│
-│                          │   inherited past debt burden obligations.        │
-└──────────────────────────┴──────────────────────────────────────────────────┘
-```
-
-- **Fiscal Responsibility and Budget Management (FRBM) Compliance**:
-  - The **Rajasthan Fiscal Responsibility and Budget Management Act, 2005** targets:
-    - Elimination of Revenue Deficit.
-    - Capping Fiscal Deficit at **3.0% of GSDP** (with 0.5% power sector performance borrowing allowance permitted by the Centre).
-  - *Current Reality*: Rajasthan's Fiscal Deficit stood at **4.26% of GSDP**:
-    - Includes **0.42%** extra borrowing window for power distribution reforms.
-    - Includes **0.54%** availed as 50-year interest-free Special Assistance loan for Capital Investment from the Government of India.
-- **Total Outstanding Liabilities (Debt-to-GSDP)**:
-  - Stood at **₹6,40,844 Crore** (amounting to **35.70% of GSDP** excluding GST compensation loans), posing a long-term debt sustainability challenge.
+See Section 6 for the current budget’s official capital-outlay estimates.
 
 ---
 
-## 7. The $350 Billion Vision: "Viksit Rajasthan @2047"
+## 5. Price indices and inflation: updated base years
 
-### 7.1 Strategic Objective: $350 Billion Economy by 2029
-Under the Amrit Kaal vision roadmap formulated in the updated 2024–25 budget:
-- The State Government has pledged to scale the economy of Rajasthan to **$350 Billion by 2029**, serving as the launchpad toward becoming a developed state under **"Viksit Rajasthan @2047"**.
+Price-index base years change after methodological revisions. The following distinctions are important as of October 2026.
 
-```
-                   THE 7 STRATEGIC PILLARS OF $350B ECONOMY
-                                      │
-  ├── Pillar 1: High-Growth Trajectory (Targeting 12%+ sustained annual nominal growth)
-  ├── Pillar 2: Sectoral Transformation (Modernizing Agri, expanding MSMEs & Services)
-  ├── Pillar 3: Massive Capital Formation (Doubling GFCF through PPP and EPC corridors)
-  ├── Pillar 4: Price Stabilization & Market Integration (Cold chains & food processing)
-  ├── Pillar 5: Green Growth & Climate Resilience (Leading national energy transition)
-  ├── Pillar 6: Human Capital Elevation (Skill enhancement, world-class polytechnics)
-  └── Pillar 7: Good Governance & Ease of Doing Business (RIPS 2024, Single Window 2.0)
-```
+| Index | What it measures / compiler | Current verified base-year position |
+|---|---|---|
+| **Rajasthan state-specific WPI** | Wholesale prices compiled by the Directorate of Economics & Statistics, Rajasthan | **1999–2000 = 100** |
+| **All-India WPI** | Wholesale price series published by the Government of India | Current series shown by MoSPI uses **2022–23 = 100** |
+| **CPI-IW** | Retail price changes for industrial-worker households; Labour Bureau | **2016 = 100** |
+| **CPI-AL / CPI-RL** | Consumer prices for agricultural-labourer / rural-labourer households; Labour Bureau | Revised to **2019 = 100** from June 2025 |
+| **CPI-Rural, CPI-Urban and CPI-Combined** | Household retail prices; NSO, MoSPI | New series uses **2024 = 100** |
 
-### 7.2 The 10 Invariant Pledges of Inclusive Growth (समावेशी विकास के 10 संकल्प)
-1. Double farmer income through high-efficiency micro-irrigation and agro-processing clusters.
-2. Universalize tap-water connectivity via Modified PKC-ERCP and Jal Jeevan Mission.
-3. Transform Rajasthan into the renewable energy capital of the world (100 GW solar/wind capacity).
-4. Establish state-of-the-art multi-modal logistics parks along the DMIC corridor.
-5. Create an impenetrable social security net for the bottom 40% (pensions, Jan Aadhaar, Chiranjeevi/Ayushman).
-6. Total elimination of paper leaks and transparent time-bound recruitment.
-7. Women-led development through Lakhpati Didi schemes and subsidized clean energy.
-8. Rapid development of tribal TSP areas and desert border districts.
-9. Promotion of tourism, heritage conservation, and handicraft export promotion.
-10. Paperless, face-less, corruption-free public administration through digital platforms.
+### 5.1 Rajasthan WPI
 
----
+- Rajasthan’s state-specific series has a base year of **1999–2000 = 100**.
+- Rajasthan DES’s price-statistics portal reported a general WPI of **427.94 for July 2026**. This is a dated monthly observation, not an annual average.
+- This series must not be confused with the current **All-India WPI** series, whose base year is 2022–23.
 
-## 8. Green Growth & Environmental Sustainability
+The source chapter’s figures “394.68 to 399.13” and the associated sub-index readings did not state a reference month/year. They are excluded from the core revision until their period and source table are specified.
 
-Rajasthan is disproportionately vulnerable to desertification, water table exhaustion, and extreme heatwaves. The state has pioneered an integrated **Green Growth Framework (हरित संवृद्धि)**:
+### 5.2 CPI-IW
 
-```
-                            GREEN GROWTH PILLARS
-                                     │
-       ┌─────────────────────────────┼─────────────────────────────┐
-       │                             │                             │
-RENEWABLE CAPITAL             CIRCULAR ECONOMY              CLIMATE-SMART WATER
-       │                             │                             │
-• >22 GW Installed Solar      • M-Sand Policy 2021          • Mandatory drip in Narmada
-• Bhadla Park (2,245 MW)        replacing river bajri.        canal command.
-• PM-KUSUM Component A, B, C  • Fly-ash utilization in      • Recharging paleochannels
-  (Solarized agri feeders).     cement manufacturing.         and traditional Khadins.
-```
+- Base year: **2016 = 100**.
+- The three Rajasthan centres in the revised series are **Alwar, Bhilwara and Jaipur**.
+- Alwar replaced Ajmer in the base-2016 series. Ajmer belongs to the earlier series and should not be listed as a current centre for the revised series.
 
-1. **Energy Transition Leadership**:
-   - Rajasthan leads the nation with **over 22 GW of operational solar capacity**.
-   - Solar Parks: **Bhadla** (Phalodi - 2,245 MW), **Nokh** (Jaisalmer - 925 MW), **Pugal** (Bikaner - 1,450 MW).
-   - Rooftop solarization via **PM Surya Ghar: Muft Bijli Yojana**.
-2. **PM-KUSUM Revolution**:
-   - Component A: Decentralized ground-mounted grid-connected solar plants (0.5 to 2 MW) on barren farmlands.
-   - Component B: Installation of standalone off-grid solar agricultural pumps.
-   - Component C (*Feeder Level Solarization*): Solarizing agricultural grid feeders to ensure daytime 3-phase power to farmers while slashing state power discom subsidies.
-3. **M-Sand Policy (Manufactured Sand)**:
-   - Notified on **25 January 2021** to preserve riverbeds from destructive gravel (*Bajri*) mining, mandating minimum 25% M-Sand in all government civil contracts.
+CPI-IW is widely used in dearness-allowance calculations and related labour-cost adjustments.
+
+### 5.3 CPI-AL and CPI-RL
+
+The Labour Bureau revised the base year from **1986–87** to **2019 = 100**, with the new series released from June 2025. CPI-AL and CPI-RL use different weights and household definitions even though they use the same broad price observations.
+
+### 5.4 CPI Combined / retail inflation
+
+The current all-India CPI series for rural, urban and combined categories uses **2024 = 100**. CPI is the retail-inflation measure used in India’s monetary-policy inflation-targeting framework. The former 2012 base year should not be described as the current CPI base year without a historical-series qualifier.
+
+**Exam trap:** “Base year” is series-specific. Rajasthan WPI (1999–2000), All-India WPI (2022–23), CPI-IW (2016), CPI-AL/RL (2019) and CPI-Combined (2024) are not interchangeable.
 
 ---
 
-## 9. Sustainable Development Goals (SDG) Status: Rajasthan's Performance
+## 6. Rajasthan’s budget and fiscal architecture
 
-### 9.1 Institutional Architecture in Rajasthan
-- **State Nodal Department**: Directorate of Economics & Statistics (DES), Planning Department, Jaipur.
-- **State Centre on SDGs**: Established in HCM RIPA, Jaipur, for capacity building and index compilation.
-- **District SDG Index (जिला एसडीजी सूचकांक)**: Rajasthan publishes an annual District SDG Implementation Index (evaluating all 33/50 districts across 75+ indicators).
+The budget year matters. The latest state budget available at the data cut-off is **2026–27**. Its figures below distinguish **Revised Estimates (RE) for 2025–26** from **Budget Estimates (BE) for 2026–27**.
 
-### 9.2 Performance under NITI Aayog SDG India Index
-- Under the NITI Aayog SDG India Index 4.0:
-  - **Overall Score**: Rajasthan scored **65+**, securing classification in the **"Front Runner"** category (states scoring 65–99).
-  - *Front Runner Status in*:
-    - **SDG 7 (Affordable & Clean Energy)**: Outstanding performance due to massive solar adoption.
-    - **SDG 6 (Clean Water & Sanitation)**: Rapid rural sanitation and Swachh Bharat ODF-Plus saturation.
-    - **SDG 1 (No Poverty)**: Substantial multi-dimensional poverty decline per NITI Aayog MPI reports.
-  - *Areas of Concern / "Aspirant / Performer" Gaps*:
-    - **SDG 5 (Gender Equality)**: Female labor force participation rate (FLFPR) and sex ratio at birth challenges.
-    - **SDG 4 (Quality Education)**: Learning outcomes and secondary school female retention in arid tracts.
-    - **SDG 3 (Good Health & Well-being)**: Maternal Mortality Ratio (MMR) and Infant Mortality Rate (IMR) reduction targets.
+### 6.1 Current budget indicators
 
----
+| Fiscal indicator | 2025–26 RE (₹ crore) | 2026–27 BE (₹ crore) |
+|---|---:|---:|
+| Revenue receipts | 2,85,533 | 3,25,740 |
+| Revenue expenditure | 3,18,516 | 3,50,054 |
+| Revenue deficit | 32,983 | 24,314 |
+| Capital outlay | 39,429 | 53,978 |
+| Fiscal deficit | 72,493 | 79,493 |
 
-## 10. Critical Exam Traps & Conceptual Nuances
+The 2026–27 Budget places the budget size at approximately **₹6,10,956 crore** and estimates GSDP at **₹21,52,100 crore**. Its budgeted fiscal deficit is **3.69% of GSDP**.
 
-1. **Base Year Confusion**:
-   - GSDP / NSDP / GFCF base year: **2011–12**.
-   - Rajasthan WPI base year: **1999–2000 = 100** (NOT 2011–12!).
-   - CPI-IW base year: **2016 = 100** (Centers: **Jaipur, Alwar, Bhilwara**).
-   - CPI-AL / RL base year: **1986–87 = 100**.
+These are budget estimates and projections; they are not audited final accounts. The Government of Rajasthan’s Economic Review reports the FY 2024–25 fiscal deficit at **4.26% of GSDP**. That 4.26% figure must be labelled **2024–25**, not presented as the current 2026–27 deficit.
 
-2. **Sectoral Contribution Order (GSVA at Current Prices)**:
-   - Rank 1: **Services Sector (47.71%)**
-   - Rank 2: **Industry Sector (26.55%)**
-   - Rank 3: **Agriculture Sector (25.74%)**
-   - *Note*: Industry slightly edges out Agriculture at current prices!
+### 6.2 Revenue receipts
 
-3. **Livestock within Agriculture**:
-   - Livestock contributes nearly **46% of total agricultural GSVA**, nearly equal to the entire crop sector.
+Revenue receipts generally comprise:
 
-4. **Fiscal Deficit Limits**:
-   - Standard FRBM norm: **3.0%**.
-   - Rajasthan actual: **4.26%** (due to 0.42% power sector debt adjustments and 0.54% 50-year special capital assistance).
+1. **State’s own tax revenue:** State GST, state excise, stamp duty and registration fees, motor-vehicle taxes, electricity duty and other state taxes.
+2. **State’s own non-tax revenue:** fees, royalties, user charges, interest receipts and other non-tax income.
+3. **Share in central taxes:** tax devolution under Finance Commission arrangements.
+4. **Grants-in-aid from the Union:** Finance Commission grants and grants for applicable schemes/purposes.
 
-5. **Private vs Public Capital Formation**:
-   - GFCF is heavily driven by the **Private Sector (77.97%)**, while the Public Sector contributes **22.03%**.
+The Union Government accepted the Sixteenth Finance Commission’s recommendation to retain the vertical share of states in the divisible pool at **41%** for the relevant award period beginning in 2026–27. That is the **vertical devolution to states as a group**, not Rajasthan’s individual state-wise share.
 
----
+Do not memorise an old Rajasthan state share percentage from the Fifteenth Finance Commission as if it automatically remained unchanged under the Sixteenth Finance Commission.
 
-## 11. Practice Questions & Model Mains Frameworks
+### 6.3 Revenue and capital expenditure
 
-### 11.1 2-Marker Questions (20 Words / 2 Lines)
+- **Revenue expenditure:** day-to-day expenditure, services, salaries, pensions, interest and transfers that are not classified as capital outlay.
+- **Capital outlay:** expenditure intended to create or acquire assets, such as roads, buildings, irrigation infrastructure and other public assets.
+- **Capital receipts:** include debt and non-debt receipts; a capital receipt is not automatically revenue income.
+- **Public debt repayment and loans/advances:** appear in capital-account/budget presentations but should not be casually treated as equivalent to asset-creating capital outlay.
 
-**Q1. What is the base year of the Wholesale Price Index (WPI) in Rajasthan?**
-- **Model Answer**: The base year of Rajasthan's state-specific Wholesale Price Index is **1999–2000 = 100**, compiled and released by the Directorate of Economics & Statistics (DES), Jaipur.
+The 2026–27 Budget Estimates provide **₹53,978 crore in capital outlay**, compared with **₹39,429 crore in 2025–26 Revised Estimates**. This is the properly dated budget comparison; it replaces the older/unsupported ₹30,727-crore figure in the original chapter.
 
-**Q2. State the sectoral composition of Rajasthan's GSVA at current prices for 2025–26.**
-- **Model Answer**: Services Sector leads with **47.71%**, followed by the Industry Sector with **26.55%**, and Agriculture & Allied Sectors with **25.74%**.
+### 6.4 Fiscal-deficit concepts
 
-**Q3. Name the three industrial centers in Rajasthan selected for the CPI-IW (Base 2016) series.**
-- **Model Answer**: The three selected centers are **Jaipur**, **Alwar**, and **Bhilwara** (Alwar replaced Ajmer in the revised 2016 base series compiled by Labour Bureau).
+| Indicator | Formula / meaning |
+|---|---|
+| **Revenue deficit** | Revenue expenditure − revenue receipts |
+| **Fiscal deficit** | Total expenditure − (revenue receipts + non-debt capital receipts), subject to the budget’s accounting presentation |
+| **Primary deficit** | Fiscal deficit − interest payments |
+| **Effective revenue deficit (ERD)** | Revenue deficit − grants for creation of capital assets |
 
-**Q4. Distinguish between Fiscal Deficit and Primary Deficit.**
-- **Model Answer**: Fiscal Deficit measures the total borrowing requirement of the government; Primary Deficit equals **Fiscal Deficit minus Interest Payments**, reflecting the current year's fiscal stance.
+Fiscal deficit measures the government’s borrowing requirement after accounting for non-debt receipts. Primary deficit removes interest payments to distinguish current-year borrowing needs from the cost of accumulated debt.
 
----
+ERD should be explained through its formula. Do not attribute it to a committee unless the specific official source being used supports that attribution.
 
-### 11.2 5-Marker Questions (50 Words / 5 Lines)
+### 6.5 FRBM and fiscal sustainability
 
-**Q1. Explain the economic significance of the Livestock sub-sector in Rajasthan's agricultural economy.**
-- **Model Answer**:
-  - **Contribution**: Generates approximately **46% of total agricultural GSVA** (~11.8% of overall state GSVA).
-  - **Drought Resilience**: Functions as the primary counter-cyclical safety net during recurring monsoonal droughts in arid and semi-arid tracts.
-  - **National Stature**: Places Rajasthan among top producers in milk and wool production nationally.
-  - **Poverty Alleviation**: Provides year-round liquidity and livelihood to small, marginal, and landless farmers.
+The **Rajasthan Fiscal Responsibility and Budget Management Act, 2005** provides the state’s statutory framework for fiscal discipline, deficit management and medium-term fiscal policy. A 3% of GSDP fiscal-deficit benchmark is commonly used in state fiscal frameworks, but the permitted borrowing path can depend on Union Government decisions, Finance Commission recommendations and conditional borrowing arrangements.
 
-**Q2. Outline the Seven Strategic Pillars of Rajasthan's '$350 Billion Economy by 2029' vision.**
-- **Model Answer**:
-  - (1) **Sustained High Growth**: Targeting 12%+ nominal annual growth.
-  - (2) **Sectoral Transformation**: Modernizing agri-business and high-tech manufacturing.
-  - (3) **Capital Formation**: Scaling GFCF through PPP and infrastructure corridors.
-  - (4) **Price Stabilization**: Strengthening storage, cold chains, and APMC logistics.
-  - (5) **Green Growth**: Exploiting 142 GW solar potential and green hydrogen.
-  - (6) **Human Capital**: Enhancing vocational skill training and public healthcare.
-  - (7) **Good Governance**: Ease of Doing Business via RIPS 2024 and single-window clearance.
+For a current-year question, use the year-specific official budget figure: **3.69% for Rajasthan’s 2026–27 BE**. Do not combine old extra-borrowing percentages with a different year’s deficit ratio. The original claim that the current 4.26% deficit was explained by additions of 0.42% and 0.54% was not established and is removed.
 
-**Q3. Discuss the concept and relevance of Effective Revenue Deficit (ERD) in the state budget.**
-- **Model Answer**:
-  - **Definition**: Effective Revenue Deficit = **Revenue Deficit minus Grants for Creation of Capital Assets**.
-  - **Rationale**: Recommended by the Rangarajan Committee to prevent distortion where central revenue transfers utilized by local bodies to build physical assets (e.g., roads under MGNREGS, school classrooms) were unfairly counted as unproductive revenue consumption.
-  - **Budget Utility**: Gives a true reflection of consumptive deficit versus asset-creating transfers.
+### 6.6 Debt and liabilities
+
+The *Economic Review 2025–26* reports debt and other liabilities for **2024–25** at approximately **₹6,40,844 crore**, or **37.67% of GSDP**. This is the report’s 2024–25 measure and should be cited with that year and definition.
+
+Debt sustainability depends not merely on the debt/GSDP ratio, but also on interest/revenue receipts, growth, the maturity profile, contingent liabilities, guarantees, power-distribution-sector exposure and the quality of expenditure financed by borrowing.
 
 ---
 
-### 11.3 10-Marker Questions (100 Words / Full Page)
+## 7. Economic vision and development strategy
 
-**Q1. Critically examine the structural changes in the economy of Rajasthan over the last decade. What structural bottlenecks impede the state's transition to a $350 billion economy?**
-- **Model Answer Framework**:
-  1. **Introduction**:
-     - Note the transition of Rajasthan's GSDP to ₹17.12 Lakh Crore (current prices) and the structural shift from a subsistence agrarian economy to a services-led growth model.
-  2. **Structural Changes Witnessed**:
-     - *Shift in Sectoral Shares*: Expansion of Services (~48%) and Industry (~26.5%), reducing agricultural vulnerability.
-     - *Livestock Dominance*: Livestock now rivals crop production within agriculture.
-     - *Energy Landscape Transformation*: Renewable powerhouse status with >22 GW solar capacity.
-     - *Private Capital Dominance*: GFCF reached 29.53% of GSDP, with private capital accounting for 77.97%.
-  3. **Critical Structural Bottlenecks**:
-     - *Fiscal Fragility*: Fiscal deficit at 4.26% exceeds the 3% FRBM ceiling; debt-to-GSDP ratio of 35.7% crowds out capital expenditure.
-     - *Water Scarcity & Dark Zones*: 1.16% surface water share limits agrarian yield diversification; reliance on depleting tubewells.
-     - *Power Discom Losses*: Accumulated debts of state distribution companies create recurrent fiscal strain.
-     - *Regional Disparity*: Industrial agglomeration is concentrated around NCR/Dhundhar (Jaipur, Alwar, Bhiwadi), while western and southern TSP districts lack industrial depth.
-     - *Low Female Workforce Participation*: Constrains full human capital dividend.
-  4. **Way Forward**:
-     - Execution of the 7 Strategic Pillars of the $350B roadmap; operationalization of Modified PKC-ERCP; scaling RIPS 2024 to attract sunrise sectors (EV, green hydrogen, electronics).
+### 7.1 USD 350-billion economy target
 
-**Q2. Assess Rajasthan's progress across Sustainable Development Goals (SDGs) as per NITI Aayog's SDG India Index. Highlight the leading achievements and key lagging sectors.**
-- **Model Answer Framework**:
-  - **Overview**: Rajasthan classified as a **"Front Runner"** with a composite score >65 under NITI Aayog SDG Index 4.0, evaluated across 16 global goals.
-  - **Leading Areas of Achievement**:
-    - *SDG 7 (Affordable & Clean Energy)*: National leader in utility-scale solar installations and rural electrification.
-    - *SDG 6 (Clean Water & Sanitation)*: ODF-Plus village saturation and Jal Jeevan Mission progress.
-    - *SDG 1 (No Poverty)*: Rapid multi-dimensional poverty decline enabled by direct social security pensions and Jan Aadhaar DBT.
-  - **Lagging Sectors & Structural Gaps**:
-    - *SDG 5 (Gender Equality)*: Persistently skewed child sex ratio and low female property ownership.
-    - *SDG 4 (Quality Education)*: High secondary dropout rates among girls in desert and tribal belts; learning outcome gaps revealed by NAS surveys.
-    - *SDG 3 (Good Health)*: Elevated neonatal and maternal mortality rates compared to southern states.
-  - **State Implementation Architecture**:
-    - Role of District SDG Index (DES) and State Centre on SDGs at HCM RIPA in institutionalizing local monitoring and competitive federalism among districts.
+The Rajasthan Budget 2025–26 stated the ambition of building a **USD 350-billion economy by 2030**. The correct target year in that budget statement is **2030**, not 2029.
+
+An aspiration is a policy target, not a guaranteed forecast. Its achievement depends on sustained output growth, investment, productivity, jobs, infrastructure, water and energy availability, human capital and fiscal capacity.
+
+### 7.2 Viksit Rajasthan @2047
+
+The state’s long-term development vision is **Viksit Rajasthan @2047**. The 2026–27 Budget describes **10 key development resolutions/pillars**, while the 2025–26 Economic Review structures its overview around **13 development sectors**. These are different frameworks published in different documents; they should not be fused into a made-up “seven official pillars” or “ten invariant pledges” list.
+
+The Economic Review also describes the Rajasthan Employment Policy 2026, whose mission is to facilitate **15 lakh employment opportunities by March 2029**. This employment-opportunity target is distinct from the USD 350-billion economy target by 2030.
+
+---
+
+## 8. Green growth and renewable energy
+
+Rajasthan’s high solar potential is associated with strong solar radiation, large available tracts in suitable locations and the potential to combine utility-scale generation with storage and transmission infrastructure. Constraints include grid integration, land and ecological considerations, water use where relevant, transmission congestion and balancing variable generation.
+
+### 8.1 Current installed capacity snapshot
+
+The Government of Rajasthan’s renewable-energy portal reports the following figures **as of 30 September 2026**:
+
+| Indicator | Installed capacity |
+|---|---:|
+| Renewable energy, total | **51,595.50 MW** |
+| Solar power | **45,121.44 MW** |
+| Wind power | **5,815.29 MW** |
+
+These are installed-capacity figures, not electricity-generation figures. They supersede the original chapter’s un-dated “over 22 GW” solar statement for a current-affairs snapshot.
+
+### 8.2 PM-KUSUM: component distinction
+
+- **Component A:** decentralised grid-connected renewable-energy plants, often developed on suitable barren or fallow land.
+- **Component B:** standalone solar agricultural pumps.
+- **Component C:** solarisation of grid-connected agricultural pumps and/or agricultural feeders, depending on the subcomponent and implementation model.
+
+PM-KUSUM can improve daytime energy access and diversify farmer income, but outcomes depend on procurement terms, grid connectivity, maintenance, financing and implementation.
+
+### 8.3 M-Sand and water-resilient development
+
+Manufactured sand can reduce demand pressure on naturally sourced river sand when it meets the relevant quality standards. Rajasthan’s water-conservation priorities also include water-use efficiency, rainwater harvesting, restoration of traditional water systems, improved irrigation practices and climate-resilient agriculture.
+
+The original claim that a particular M-Sand policy required a fixed 25% share in every government civil contract was not retained because the exact operative notification and scope were not authenticated in this audit. Do not memorise the 25% figure without the relevant notification.
+
+---
+
+## 9. Sustainable Development Goals (SDGs)
+
+### 9.1 NITI Aayog SDG India Index 2023–24
+
+NITI Aayog’s **SDG India Index 2023–24** gives Rajasthan an overall score of **67**, up by **7 points** from the 2020–21 index. In that edition, a score from **65 to 99** is classified as **Front Runner**.
+
+This is an overall composite score across the Index’s covered targets and indicators. It does **not** mean Rajasthan is a Front Runner for every individual SDG.
+
+### 9.2 How to use the Index in an answer
+
+A balanced Mains answer should:
+- state the edition and score;
+- explain that the Index compares progress on SDG indicators, rather than proving causation;
+- identify strengths and gaps only after checking the relevant goal-wise score or indicator;
+- connect state implementation with district monitoring, service delivery, budgets and measurable outcomes; and
+- avoid citing an unsupported annual district index, district count or a specific goal ranking unless a current official report confirms it.
+
+### 9.3 SDGs and Rajasthan’s development challenges
+
+Useful analytical links include:
+- **SDG 1 — No Poverty:** social protection, livelihoods and inclusion;
+- **SDG 3 — Good Health and Well-being:** health access and outcomes;
+- **SDG 4 — Quality Education:** learning, access and retention;
+- **SDG 5 — Gender Equality:** women’s participation, safety and economic agency;
+- **SDG 6 — Clean Water and Sanitation:** water security and service quality;
+- **SDG 7 — Affordable and Clean Energy:** renewable generation and reliable access;
+- **SDG 8 — Decent Work and Economic Growth:** quality employment and productivity;
+- **SDG 13 — Climate Action:** drought, heat and climate resilience.
+
+Use this as a conceptual map, not as a claim that Rajasthan attained a particular score under each listed goal.
+
+---
+
+## 10. Critical exam traps and quick revision
+
+1. **GSDP vs GSVA:** 2025–26 GSDP is ₹18.75 lakh crore at current prices; the original chapter’s ₹17.12 lakh crore total aligns with the sectoral GSVA total, not GSDP.
+2. **Growth rates:** GSDP growth in the 2025–26 Economic Review is **10.24% nominal** and **8.66% real**.
+3. **NSDP:** 2025–26 AE is ₹16.85 lakh crore current and ₹8.59 lakh crore constant 2011–12 prices.
+4. **PCI:** 2025–26 AE is ₹2,02,349 current and ₹1,03,189 constant 2011–12 prices.
+5. **GSVA sector order at current prices:** Services (47.71%) > Industry (26.55%) > Agriculture and allied activities (25.74%).
+6. **Livestock:** 2025–26 current-price GVA is approximately ₹2.17 lakh crore and exceeds crop-sector GVA.
+7. **Fiscal years:** 4.26% fiscal deficit/GSDP is the Economic Review’s 2024–25 figure; 3.69% is the 2026–27 Budget Estimate.
+8. **Debt ratio:** ₹6,40,844 crore and 37.67% of GSDP refer to 2024–25 debt and other liabilities in the Economic Review.
+9. **Budget capital outlay:** 2025–26 RE ₹39,429 crore; 2026–27 BE ₹53,978 crore.
+10. **Price bases:** Rajasthan WPI 1999–2000; All-India WPI 2022–23; CPI-IW 2016; CPI-AL/RL 2019; CPI-Rural/Urban/Combined 2024.
+11. **Solar capacity:** 45.12 GW solar installed capacity as of 30 September 2026; this is capacity, not output.
+12. **Policy target:** USD 350-billion economy by **2030**; 15 lakh employment opportunities by March **2029** are a separate employment-policy mission.
+13. **SDG index:** Rajasthan scored 67 in the 2023–24 SDG India Index; “Front Runner” is its overall category, not necessarily the category for every SDG.
+
+---
+
+## 11. Practice questions and model-answer frameworks
+
+### 11.1 Two-mark questions
+
+**Q1. Distinguish GSDP from GSVA.**  
+**Model answer:** GSVA measures the value added by producing sectors. GSDP at market prices is obtained by adding net product taxes to GSVA; GSDP is therefore not interchangeable with the sum of sectoral value added alone.
+
+**Q2. What were Rajasthan’s estimated GSDP and real growth rate for 2025–26?**  
+**Model answer:** The Economic Review 2025–26 estimated GSDP at ₹18.75 lakh crore at current prices and ₹9.82 lakh crore at constant 2011–12 prices, with growth of 10.24% nominally and 8.66% in real terms.
+
+**Q3. What is Rajasthan’s sectoral GSVA ranking at current prices in 2025–26?**  
+**Model answer:** Services led at 47.71%, followed by industry at 26.55%, and agriculture and allied activities at 25.74%.
+
+**Q4. State the fiscal-deficit ratio in Rajasthan’s 2026–27 Budget Estimates.**  
+**Model answer:** The 2026–27 Budget Estimates place the fiscal deficit at ₹79,493 crore, or 3.69% of GSDP.
+
+**Q5. What are the current base years for CPI-IW and CPI-AL/RL?**  
+**Model answer:** CPI-IW uses 2016=100; CPI-AL/RL uses 2019=100 in the revised series.
+
+### 11.2 Five-mark questions
+
+**Q1. Explain the difference between nominal growth and real growth in Rajasthan’s GSDP.**  
+**Model-answer points:**
+- Current-price estimates include both quantity and price changes.
+- Constant-price estimates value output using the designated base-year prices.
+- Rajasthan’s 2025–26 GSDP growth was estimated at 10.24% current prices and 8.66% constant 2011–12 prices.
+- The difference is not, by itself, a perfect direct measure of consumer-price inflation; it reflects the national-accounts deflator and estimation framework.
+- State the series vintage, base year and estimate status.
+
+**Q2. Describe the sectoral structure of Rajasthan’s economy and explain the role of livestock.**  
+**Model-answer points:**
+- Services account for 47.71% of GSVA at current prices in 2025–26.
+- Industry contributes 26.55%, slightly more than agriculture and allied activities at 25.74%.
+- Livestock GVA at current prices is approximately ₹2.17 lakh crore and exceeds crop-sector GVA.
+- Livestock diversifies rural livelihoods and supports incomes in water-constrained areas.
+- Productivity, fodder, animal health, processing and market access remain relevant policy priorities.
+
+**Q3. Explain why the current base year matters when reading price indices.**  
+**Model-answer points:**
+- Base-year revisions update the reference period, item basket, weights and/or methods.
+- Rajasthan’s state-specific WPI uses 1999–2000, while current All-India WPI uses 2022–23.
+- CPI-IW uses 2016; CPI-AL/RL uses 2019; CPI-Rural/Urban/Combined uses 2024.
+- Index values from different bases should not be compared as if they were one continuous unchanged series without proper linking.
+- Cite the index, compiler, reference month and base year.
+
+**Q4. Summarise the latest Rajasthan fiscal position in the 2026–27 Budget.**  
+**Model-answer points:**
+- Budget size: about ₹6.11 lakh crore.
+- Revenue receipts: ₹3.26 lakh crore; revenue expenditure: ₹3.50 lakh crore.
+- Revenue deficit: ₹24,314 crore.
+- Fiscal deficit: ₹79,493 crore, equivalent to 3.69% of budgeted GSDP.
+- Capital outlay: ₹53,978 crore; note these are Budget Estimates, not final audited accounts.
+
+### 11.3 Ten-mark questions
+
+**Q1. “Rajasthan’s economic growth is increasingly diversified, but structural constraints remain.” Discuss.**
+
+**Suggested framework:**
+1. **Introduction:** define GSDP and note the 2025–26 estimate of ₹18.75 lakh crore at current prices.
+2. **Structural transformation:** services lead sectoral GSVA at 47.71%; industry accounts for 26.55%; agriculture and allied activities account for 25.74%.
+3. **Rural economy:** livestock-sector GVA of approximately ₹2.17 lakh crore underlines the importance of allied agriculture.
+4. **New growth engines:** renewable energy, tourism, minerals, manufacturing, logistics and services.
+5. **Constraints:** water stress and climatic risk; uneven regional industrialisation; job quality and skills; energy-grid requirements; fiscal and debt-servicing pressures.
+6. **Fiscal capacity:** distinguish revenue expenditure, capital outlay and economy-wide investment; cite 2026–27 Budget Estimates accurately.
+7. **Way forward:** water-efficient production, livestock value chains, improved human capital, reliable infrastructure, fiscal prioritisation and evidence-based district planning.
+
+**Q2. Analyse the implications of Rajasthan’s 2026–27 budget for fiscal sustainability and development.**
+
+**Suggested framework:**
+1. State the fiscal-data vintage: 2026–27 BE, not actual accounts.
+2. Note revenue receipts of ₹3,25,740 crore and revenue expenditure of ₹3,50,054 crore.
+3. Explain the revenue deficit of ₹24,314 crore and fiscal deficit of ₹79,493 crore (3.69% of GSDP).
+4. Discuss capital outlay of ₹53,978 crore and its importance for productive assets.
+5. Evaluate the trade-off among welfare obligations, salaries/pensions, interest payments and infrastructure.
+6. Explain why growth-enhancing spending has to be assessed for implementation, asset quality, maintenance and social returns.
+7. Conclude with medium-term fiscal transparency, improved revenue mobilisation and outcome-based expenditure.
+
+**Q3. Evaluate Rajasthan’s progress on the SDGs using the NITI Aayog SDG India Index.**
+
+**Suggested framework:**
+1. Name the exact Index edition: 2023–24.
+2. State Rajasthan’s score of 67 and the +7-point change versus the 2020–21 Index.
+3. Explain that “Front Runner” is the overall 65–99 score category.
+4. Avoid attributing an overall classification to every single SDG; use goal-wise data where available.
+5. Link outcomes with water security, health, education, gender equality, employment, clean energy and climate resilience.
+6. Identify the role of measurable indicators, local implementation, district-level monitoring and public finance.
+7. Conclude that Index performance is a monitoring tool, not by itself proof of causation or uniform progress across districts.
+
+---
+
+## 12. Official source register
+
+The figures above were checked against the following official publications and data portals. Because statistical estimates and price indices are revised, recheck the newest release before using dynamic numbers in a later examination cycle.
+
+1. **Government of Rajasthan, Economic Review 2025–26**  
+   https://finance.rajasthan.gov.in/docs/budget/statebudget/2026-2027/Economicreviewe.pdf  
+   Used for GSDP, NSDP, PCI, sectoral GSVA, livestock GVA and historical fiscal indicators.
+
+2. **Government of Rajasthan, Budget at a Glance 2026–27**  
+   https://finance.rajasthan.gov.in/docs/budget/statebudget/2026-2027/Budgetataglance.pdf  
+   Used for 2025–26 Revised Estimates and 2026–27 Budget Estimates, including revenue receipts, revenue expenditure, revenue deficit, capital outlay and fiscal deficit.
+
+3. **Government of Rajasthan, Budget Speech 2026–27**  
+   https://finance.rajasthan.gov.in/docs/budget/statebudget/2026-2027/BudgetSpeech202627.pdf  
+   Used for 2026–27 budgeted GSDP, fiscal deficit ratio and the state’s development framework.
+
+4. **Government of Rajasthan, Price Statistics in Rajasthan — DES**  
+   https://psr.rajasthan.gov.in/home.aspx/PressRelease.aspx  
+   Used for the state-specific WPI base and latest monthly price-index snapshot.  
+   CPI-IW centre note: https://psr.rajasthan.gov.in/About.aspx
+
+5. **MoSPI, FAQ on the new GDP series**  
+   https://mospi.gov.in/faq  
+   Used for the national GDP base-year revision to 2022–23 and series comparability cautions.
+
+6. **MoSPI, eSankhyiki CPI catalogue**  
+   https://esankhyiki.mospi.gov.in/catalogue-main/catalogue?product=CPI  
+   Used for the current CPI series at 2024=100.
+
+7. **MoSPI, Visualization Index**  
+   https://mospi.gov.in/visualization-index  
+   Used to check the current All-India WPI series at 2022–23=100.
+
+8. **Labour Bureau, CPI-AL/RL**  
+   https://www.labourbureau.gov.in/consumer-price-index-numbers-for-agricultural-and-rural-labourers  
+   Used for CPI-AL/RL revision to 2019=100.
+
+9. **NITI Aayog, SDG India Index 2023–24**  
+   https://www.niti.gov.in/sites/default/files/2024-07/SDG_India_Index_2023-24.pdf  
+   Used for Rajasthan’s overall score and category.
+
+10. **Government of Rajasthan, Renewable Energy — Rising Rajasthan**  
+    https://rising.rajasthan.gov.in/renewable-energy  
+    Used for installed renewable, solar and wind capacity as of 30 September 2026.
+
+11. **Press Information Bureau, Sixteenth Finance Commission devolution**  
+    https://www.pib.gov.in/PressReleasePage.aspx?PRID=2221390&lang=1&reg=3  
+    Used for the Union Government’s acceptance of the 41% vertical devolution recommendation for states as a group.
+
+---
+
+**Revision rule:** Before a new exam cycle, update only the time-sensitive tables (GSDP/NSDP/PCI, budget figures, monthly price indices, renewable capacity and SDG Index edition). Preserve the conceptual explanations, but never carry a figure forward without its year, estimate status, base year and official source.

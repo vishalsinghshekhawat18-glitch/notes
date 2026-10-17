@@ -13,6 +13,37 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
      - New models, distinction tables, and revision units introduced
      - Commit SHA and deployment timestamp
 
+### [STAGED LOCAL] v074 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 30 Benchmark Audit Harmonization
+* **Release Date**: 2026-10-17
+* **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
+* **Status**: **STATUS: 100% HARMONIZED WITH EXTERNAL FORENSIC BENCHMARK (CHAPTER 30)**
+* **Audit Score Baseline Alignment**:
+  - Ingested external forensic audit report (`CHAPTER_30_FORENSIC_AUDIT_REPORT.md`), revised benchmark (`CHAPTER_30_MACRO_ECONOMY_REVISED.md`), and verification log (`CHAPTER_30_VERIFICATION_LOG.md`).
+  - Fully harmonized `007/notes/rajasthan/31_CHAPTER_30_MACRO_ECONOMY_GSDP_BUDGET_FISCAL.md` and Rapid Revision Matrix 30 (`007/revision/rajasthan/30_REV_CHAPTER_30_MACRO_ECONOMY_GSDP_BUDGET_FISCAL.md`), resolving the critical GSDP vs GSVA total misattribution (GSDP: ₹18.75 lakh crore current, ₹9.82 lakh crore constant 2011–12), updating NSDP and PCI (₹2,02,349 current, ₹1,03,189 constant), segregating FY 2024–25 Economic Review fiscal deficit (4.26%) from FY 2026–27 Budget Estimates (3.69%), updating all national and state price-index base years (Rajasthan WPI 1999–2000, All-India WPI 2022–23, CPI-IW 2016, CPI-AL/RL 2019, CPI-Combined 2024), updating solar installed capacity to 45,121.44 MW (30 Sept 2026), and correcting the USD 350-billion economy aspiration deadline to 2030.
+* **Key Epistemic Corrections & Enhancements Implemented**:
+  - **Macro Aggregates Reconciled (Economic Review 2025–26 AE)**:
+    - **GSDP at Market Prices**: Reconciled to **₹18,75,413 crore** at current prices (+10.24% nominal growth) and **₹9,81,807 crore** at constant 2011–12 prices (+8.66% real growth). Corrected the former misattribution where the GSVA total (~₹17.12 lakh crore) was incorrectly labelled as GSDP.
+    - **Net State Domestic Product (NSDP)**: Reconciled to **₹16,85,118 crore** at current prices (+10.48%) and **₹8,59,333 crore** at constant prices (+8.90%).
+    - **Per Capita Income (PCI)**: Current prices PCI established at **₹2,02,349** (surpassing ₹2 lakh threshold; +9.32% growth) and constant 2011–12 prices PCI at **₹1,03,189** (+7.76% growth).
+    - **Series Vintage Warning**: Noted that MoSPI rebased the national GDP series to **2022–23** in February 2026, while Rajasthan's state accounts remain at constant **2011–12 prices**.
+  - **Sectoral Dynamics & Livestock Prominence**:
+    - Current prices GSVA shares: **Services 47.71% > Industry 26.55% > Agriculture & Allied 25.74%** (Sum: 100.00%).
+    - Livestock Sector GVA: Verified at approximately **₹2.17 lakh crore** at current prices, officially exceeding the crop sector GVA in Rajasthan, with milk as the primary revenue generator.
+  - **Price Indices & Methodological Base Years**:
+    - **Rajasthan State WPI**: Base **1999–2000 = 100** (DES Jaipur; July 2026 general index: 427.94).
+    - **All-India WPI**: Base **2022–23 = 100** (DPIIT/MoSPI).
+    - **CPI-IW (Industrial Workers)**: Base **2016 = 100**; Rajasthan centres: **Jaipur, Alwar, and Bhilwara** (Alwar replaced Ajmer in the 2016 series).
+    - **CPI-AL / CPI-RL**: Revised to **2019 = 100** by Labour Bureau (released June 2025; replacing 1986–87).
+    - **CPI-Combined (Retail Inflation)**: Revised to **2024 = 100** by NSO/MoSPI (replacing 2012).
+  - **State Budget & Fiscal Indicators Architecture**:
+    - **Budget 2026–27 BE**: Revenue receipts ₹3,25,740 Cr, revenue exp ₹3,50,054 Cr, revenue deficit ₹24,314 Cr, capital outlay **₹53,978 Cr** (+36.9% over 2025–26 RE of ₹39,429 Cr), fiscal deficit **₹79,493 Cr**, and budgeted fiscal deficit ratio of **3.69% of GSDP**.
+    - **Historical Fiscal Data (Economic Review)**: Fiscal deficit for FY 2024–25 stands at **4.26% of GSDP**; outstanding debt and liabilities for FY 2024–25 stand at **₹6,40,844 Cr, representing 37.67% of GSDP**.
+    - Sixteenth Finance Commission: Union accepted 41% vertical devolution to states as a group.
+  - **Clean Energy & Long-Term Visions**:
+    - **Renewable Energy (30 Sept 2026 snapshot)**: Total installed capacity of **51,595.50 MW** (~51.60 GW), featuring **45,121.44 MW (~45.12 GW) solar power** and **5,815.29 MW wind power**.
+    - **Strategic Targets**: USD 350-billion economy aspiration target year verified as **2030** (Budget 2025–26). Employment Policy 2026 targets 15 lakh opportunities by March 2029.
+    - **SDG India Index 2023–24**: Rajasthan scored **67** (+7 over 2020–21), categorized overall as a **Front Runner** (65–99 band).
+
 ### [STAGED LOCAL] v073 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 29 Benchmark Audit Harmonization
 * **Release Date**: 2026-10-17
 * **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
