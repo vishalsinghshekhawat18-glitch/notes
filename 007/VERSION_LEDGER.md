@@ -17,6 +17,41 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
 
 ## Release History
 
+### [STAGED LOCAL] v065 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 21 Benchmark Audit Harmonization
+* **Release Date**: 2026-10-17
+* **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
+* **Status**: **STATUS: 100% HARMONIZED WITH EXTERNAL FORENSIC BENCHMARK (CHAPTER 21)**
+* **Audit Score Baseline Alignment**:
+  - Ingested external forensic audit report (`CHAPTER_21_AUDIT_REPORT.md`) and revised benchmark (`CHAPTER_21_WATER_INFRASTRUCTURE_CANALS_IRRIGATION_REVISED.md`).
+  - Fully harmonized `007/notes/rajasthan/22_CHAPTER_21_WATER_INFRASTRUCTURE_CANALS_IRRIGATION.md` and Rapid Revision Matrix 21 (`007/revision/rajasthan/21_REV_CHAPTER_21_WATER_INFRASTRUCTURE_CANALS.md`), resolving false National Project funding declarations, engineering-unit confusions (Bisalpur RL elevation vs volume capacity), unsupported major dam superlatives, implausible Parwan power metrics, and unqualified traditional structure claims; anchored directly to Rajasthan *Agricultural Statistics 2023–24*, CGWB Dynamic Ground Water Resources 2025, and CWC project documentation.
+* **Key Epistemic Corrections & Enhancements Implemented**:
+  - **Macro Irrigation Statistics Rebuilt (Agricultural Statistics 2023–24)**:
+    - Net Irrigated Area = **95.47 lakh ha** (52.46% of Net Sown Area); Gross Irrigated Area = **129.60 lakh ha** (resolving previous conflation of net and gross figures).
+    - Source-wise net irrigated shares strictly quantified: Tube-wells **52.03%**, Open wells **21.95%** (Combined groundwater wells = **73.98%**), Canals **23.19%**, Tanks **0.54%**, Other sources **2.29%**.
+  - **Groundwater Dynamics Grounded (CGWB 2025 Assessment)**:
+    - Annual groundwater recharge = **12.87 BCM**; Annual extractable groundwater resource = **11.62 BCM**; Annual groundwater extraction = **17.10 BCM**.
+    - Stage of groundwater extraction strictly defined as Extraction ÷ Extractable Resource = **147.11%** (clarified that extraction is divided by extractable resource, not total recharge).
+    - Replaced informal "dark zone" terminology with official CGWB classifications: **213 of 302 assessment units (70.53%) over-exploited** and 23 units (7.62%) critical.
+    - Rajasthan State Water Policy 2010 reframed around integrated river-basin management, purging unsupported claims of "first in India" or rigid statutory hierarchies.
+  - **Indira Gandhi Nahar Pariyojana (IGNP) Epistemic Integrity**:
+    - Harike Barrage (Punjab, Satluj–Beas confluence) headworks verified; Rajasthan Feeder (204 km: 170 km Pb/Hry, 34 km Raj) defined as a conveyance structure without distribution outlets up to Masitawali Head (Hanumangarh).
+    - CWC reported CCA: Stage I ~5.46 lakh ha; Stage II ~10.71 lakh ha.
+    - Sem waterlogging problem reframed as a multi-factor hydrogeological phenomenon (excess irrigation, elevated groundwater tables, seepage, and impermeable subsoil layers in areas like Badopal); Eucalyptus bio-drainage contextualized as a localized intervention rather than an absolute cure.
+  - **Modified Parbati-Kalisindh-Chambal (PKC) – ERCP Interlinking Project**:
+    - Tripartite MoU dated **28 January 2024** and Memorandum of Agreement (MoA) dated **5 December 2024** documented.
+    - Clarified that DPRs are under CWC techno-economic appraisal; purged premature claims of formal inclusion as an approved "National Project" with 90:10 funding (relying on Ministry parliamentary records of Dec 2025).
+    - Planned state utilization documented at **3,309.83 MCM** (including ~1,744.16 MCM planned drinking water for 21 districts and ~2.8+ lakh ha planned new irrigation command).
+  - **Narmada Canal Project Precision**:
+    - Entry near Silu village (Sanchore area, Jalore district) from Sardar Sarovar Project (Gujarat); ~74 km Main Canal.
+    - Grounded in Rajasthan Economic Review confirmation of **mandatory sprinkler irrigation** across its entire ~2.46 lakh ha command (233 villages); purged unverified claims of joint 100% drip statutory mandates.
+  - **Engineering Units & Dam Metrics Rectified**:
+    - Corrected Bisalpur Dam: **315.50 m RL** is an elevation/height coordinate denoting Full Reservoir Level (FRL), not storage capacity volume.
+    - Removed corrupt "Parwan 2,970 MW" power figure; qualified Jakham Dam (~81 m) and Panchana Dam (5 rivulets) without unverified statewide superlatives.
+  - **Traditional Water Harvesting Scientific Nuance**:
+    - Khadin (Paliwal Brahmins of Jaisalmer, Dhora, Khadia, winter rabi without irrigation) mechanism clarified.
+    - Tankas contextualized with proper sanitary maintenance; purged claims of water being naturally "bacteria-free" without testing.
+    - Kuis / Beris (10–15 m depth, Chezwano artisans, Khadia Patti) accurately mapped to intermediate perched moisture (**Rejani Paani**), distinguishing it from Palar Paani (direct rain) and Patal Paani (deep groundwater).
+
 ### [STAGED LOCAL] v064 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 20 Benchmark Audit Harmonization
 * **Release Date**: 2026-10-17
 * **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
